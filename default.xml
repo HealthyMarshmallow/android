@@ -25,8 +25,25 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+<!-- HM -->
   <project path="android" name="HealthyMarshmallow/android" remote="github" revision="mm" />
 
+<!-- trader418 -->
+  <project path="packages/apps/Bluetooth" name="trader418/android_packages_apps_Bluetooth" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/BluetoothExt" name="trader418/android_packages_apps_BluetoothExt" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/Contacts" name="trader418/android_packages_apps_Contacts" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/ContactsCommon" name="trader418/android_packages_apps_ContactsCommon" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/DeskClock" name="trader418/android_packages_apps_DeskClock" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/Dialer" name="trader418/android_packages_apps_Dialer" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/InCallUI" name="trader418/android_packages_apps_InCallUI" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/PackageInstaller" name="trader418/android_packages_apps_PackageInstaller" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/SetupWizard" name="trader418/android_packages_apps_SetupWizard" remote="github" revision="cm-13.0" />
+  <project path="packages/providers/ContactsProvider" name="trader418/android_packages_providers_ContactsProvider" remote="github" revision="cm-13.0" />
+  <project path="packages/providers/MediaProvider" name="trader418/android_packages_providers_MediaProvider" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/PhoneCommon" name="trader418/android_packages_apps_PhoneCommon" remote="github" revision="cm-13.0" />
+  <project path="packages/services/Telecomm" name="trader418/android_packages_services_Telecomm" remote="github" revision="cm-13.0" />
+
+<!-- temasek -->
   <project path="art" name="temasek/android_art" remote="github" revision="cm-13.0" />
   <project path="bionic" name="temasek/android_bionic" remote="github" revision="cm-13.0" />
   <project path="bootable/recovery" name="temasek/android_bootable_recovery" remote="github" revision="cm-13.0" />
@@ -48,28 +65,15 @@
   <project path="frameworks/opt/telephony" name="temasek/android_frameworks_opt_telephony" remote="github" revision="cm-13.0" />
   <project path="frameworks/opt/timezonepicker" name="temasek/android_frameworks_opt_timezonepicker" remote="github" revision="cm-13.0" />
   <project path="libcore" name="temasek/android_libcore" remote="github" revision="cm-13.0" />
-  <project path="packages/apps/Bluetooth" name="temasek/android_packages_apps_Bluetooth" remote="github" revision="cm-13.0" />
-  <project path="packages/apps/BluetoothExt" name="temasek/android_packages_apps_BluetoothExt" remote="github" revision="cm-13.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="temasek/android_packages_apps_CellBroadcastReceiver" remote="github" revision="cm-13.0" />
-  <project path="packages/apps/Contacts" name="temasek/android_packages_apps_Contacts" remote="github" revision="cm-13.0" />
-  <project path="packages/apps/ContactsCommon" name="temasek/android_packages_apps_ContactsCommon" remote="github" revision="cm-13.0" />
-  <project path="packages/apps/DeskClock" name="temasek/android_packages_apps_DeskClock" remote="github" revision="cm-13.0" />
-  <project path="packages/apps/Dialer" name="temasek/android_packages_apps_Dialer" remote="github" revision="cm-13.0" />
-  <project path="packages/apps/InCallUI" name="temasek/android_packages_apps_InCallUI" remote="github" revision="cm-13.0" />
   <project path="packages/apps/LockClock" name="temasek/android_packages_apps_LockClock" remote="github" revision="cm-13.0" />
   <project path="packages/apps/OmniSwitch" name="temasek/android_packages_apps_OmniSwitch" remote="github" revision="cm-13.0" />
   <project path="packages/apps/OTAUpdates" name="temasek/OTAUpdates" revision="aosp" />
-  <project path="packages/apps/PackageInstaller" name="temasek/android_packages_apps_PackageInstaller" remote="github" revision="cm-13.0" />
-  <project path="packages/apps/PhoneCommon" name="temasek/android_packages_apps_PhoneCommon" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Settings" name="temasek/android_packages_apps_Settings" remote="github" revision="cm-13.0" />
-  <project path="packages/apps/SetupWizard" name="temasek/android_packages_apps_SetupWizard" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Snap" name="temasek/android_packages_apps_Snap" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Trebuchet" name="temasek/android_packages_apps_Trebuchet" remote="github" revision="cm-13.0" />
   <project path="packages/inputmethods/LatinIME" name="temasek/android_packages_inputmethods_LatinIME" remote="github" revision="cm-13.0" />
-  <project path="packages/providers/ContactsProvider" name="temasek/android_packages_providers_ContactsProvider" remote="github" revision="cm-13.0" />
-  <project path="packages/providers/MediaProvider" name="temasek/android_packages_providers_MediaProvider" remote="github" revision="cm-13.0" />
   <project path="packages/providers/TelephonyProvider" name="temasek/android_packages_providers_TelephonyProvider" remote="github" revision="cm-13.0" />
-  <project path="packages/services/Telecomm" name="temasek/android_packages_services_Telecomm" remote="github" revision="cm-13.0" />
   <project path="packages/services/Telephony" name="temasek/android_packages_services_Telephony" remote="github" revision="cm-13.0" />
   <project path="system/bt" name="temasek/android_system_bt" remote="github" revision="cm-13.0" />
   <project path="system/core" name="temasek/android_system_core" remote="github" revision="cm-13.0" />
