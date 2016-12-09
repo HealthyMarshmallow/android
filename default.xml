@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r74" />
+           revision="refs/tags/android-6.0.1_r77" />
 
   <remote  name="github"
            fetch=".."
@@ -145,7 +145,7 @@
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
   <project path="external/koush/ion" name="CyanogenMod/ion" />
-  <project path="external/libavc" name="CyanogenMod/android_external_libavc" groups="pdk" />
+  <project path="external/libavc" name="HealthyMarshmallow/android_external_libavc" remote="github" revision="mm" groups="pdk" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" />
   <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" />
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" />
@@ -205,7 +205,7 @@
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
-  <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/ex" name="HealthyMarshmallow/android_frameworks_ex" remote="github" revision="mm" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs,pdk-fs" />
